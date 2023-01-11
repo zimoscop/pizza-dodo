@@ -1,0 +1,49 @@
+.header__logo {
+  width: 44px;
+}
+
+.logo__box {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 42px;
+}
+
+.header__mix {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+
+.header__text {
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.header__poster {
+  margin-top: 30px;
+}
+
+.nav__mix {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  height: 19px;
+  display: flex;
+  gap: 23px;
+}
+.header__button {
+  width: 104px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(249, 105, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 9px 0 9px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}

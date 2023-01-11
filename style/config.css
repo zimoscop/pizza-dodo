@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 1);
+}
+
+header {
+  padding: 25px 0 35px;
+}
+
+section {
+  padding: 35px 0 35px;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgba(249, 105, 0, 1);
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
