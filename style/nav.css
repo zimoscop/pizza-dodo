@@ -2,9 +2,13 @@
   width: 44px;
 }
 
+.dodo__name {
+  width: 22px;
+  height: 191px;
+}
+
 .logo__box {
   display: flex;
-  /* justify-content: space-between; */
   height: 42px;
 }
 
@@ -15,14 +19,37 @@
 }
 
 .header__text {
-  margin-top: 7px;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
 }
 
+.tel {
+  font-size: 18x;
+  line-height: 24px;
+  font-weight: 600;
+  height: 25px;
+  width: 144px;
+  /* border: 1px solid black; */
+  text-align: right;
+  margin-left: 6px;
+}
+
+.note {
+  /* border: 1px solid black; */
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(153, 153, 153, 1);
+  height: 20px;
+  width: 130px;
+  margin-left: 20px;
+  text-align: right;
+}
+
 .header__poster {
   margin-top: 30px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .nav__mix {
@@ -31,10 +58,18 @@
 }
 
 .nav__list {
-  height: 19px;
+  height: 39px;
   display: flex;
   gap: 23px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
+
+nav a {
+  padding: 10px 0 10px;
+}
+
 .header__button {
   width: 104px;
   height: 40px;
@@ -43,7 +78,28 @@
   background-color: rgba(249, 105, 0, 1);
   color: rgba(255, 255, 255, 1);
   padding: 9px 0 9px;
+  line-height: 21px;
   font-size: 16px;
   font-weight: 600;
   font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 680px) {
+  .header__text,
+  .header__tel,
+  .nav__mix {
+    display: none;
+  }
+
+  .logo__box {
+    height: 23px;
+    gap: 10px;
+  }
+  .header__logo {
+    width: 22px;
+  }
+
+  .header__poster {
+    margin-top: 0px;
+  }
 }
