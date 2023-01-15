@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -44,7 +44,7 @@
             <a href="#snack">Закуски</a>
             <a href="#desert">Десерты</a>
             <a href="#drink">Напитки</a>
-            <a href="">Другие товары</a>
+            <a href="#newpop">Другие товары</a>
           </nav>
           <button class="header__button">Корзина</button>
         </div>
@@ -57,11 +57,73 @@
       </div>
     </header>
     <main>
-      <section>
-        <div class="container"></div>
+      <section id="newpop">
+        <div class="container">
+          <h2>Новое и популярное</h2>
+          <div class="newpop__cards">
+            <div class="npcard">
+              <img class="npimg" src="./images/cezar.png" alt="cezar" />
+              <div class="nptext">
+                <p class="npname">Цезарь</p>
+                <p class="npprice">от 445 ₽</p>
+              </div>
+            </div>
+            <div class="npcard">
+              <img class="npimg" src="./images/salmon.png" alt="salmon" />
+              <div class="nptext">
+                <p class="npname">Нежный&nbsp;лосось</p>
+                <p>от 495 ₽</p>
+              </div>
+            </div>
+            <div class="npcard">
+              <img class="npimg" src="./images/twopizzas.png" alt="twopizzas" />
+              <div class="nptext">
+                <p class="npname">2 пиццы</p>
+                <p>899 ₽</p>
+              </div>
+            </div>
+            <div class="npcard">
+              <img class="npimg" src="./images/karbonara.png" alt="karbonara" />
+              <div class="nptext">
+                <p class="npname">Карбонара</p>
+                <p>от 395 ₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section>
-        <div class="container"></div>
+      <section id="pizza">
+        <div class="container">
+          <h2>Пицца</h2>
+          <div class="pizza__cards">
+            <div class="pizza__card">
+              <img
+                class="card__img"
+                src="./images/fromhalf.png"
+                alt="fromhalf"
+              />
+              <h3>Пицца из половинок</h3>
+              <p class="card__text">
+                Соберите свою пиццу 35 см с двумя разными вкусами
+              </p>
+              <div class="card__footer">
+                <p class="ftext">от 600 ₽</p>
+                <button class="fbutfirst">Собрать</button>
+              </div>
+            </div>
+            <div class="pizza__card">
+              <img class="card__img" src="./images/pephard.png" alt="pephard" />
+              <h3>Пепперони-сердце</h3>
+              <p class="card__text">
+                Пикантная пепперони, моцарелла, томатный соус
+              </p>
+              <div class="card__footer">
+                <p class="ftext">от 625 ₽</p>
+                <button class="fbut">Выбрать</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section>
         <div class="container"></div>

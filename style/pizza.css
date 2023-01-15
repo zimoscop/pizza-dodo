@@ -1,0 +1,63 @@
+.pizza__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.pizza__card {
+  width: 250px;
+  height: 370px;
+}
+.card__img {
+  height: 220px;
+  width: 220px;
+  margin: 0 15px 5px 15px;
+}
+
+.card__text {
+  font-size: 14px;
+  line-height: 19px;
+  width: 186px;
+  max-height: 57px;
+  color: rgba(115, 121, 140, 1);
+}
+.card__footer {
+  display: flex;
+  gap: 46px;
+  margin-top: 10px;
+}
+
+.ftext {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 8px 0 8px;
+}
+.fbutfirst {
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  padding: 9px 0 9px;
+  background-color: rgba(249, 105, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 20px;
+}
+.fbutfirst:hover {
+  background-color: rgb(245, 180, 133);
+  color: rgb(246, 86, 86);
+}
+
+.fbut {
+  background-color: rgba(255, 240, 230, 1);
+  color: rgba(209, 87, 0, 1);
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  padding: 9px 0 9px;
+  border: none;
+  border-radius: 20px;
+}
+.fbut:hover {
+  background-color: rgb(249, 121, 36);
+  color: rgb(252, 249, 247);
+}

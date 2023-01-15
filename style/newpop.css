@@ -1,0 +1,35 @@
+.newpop__cards {
+  display: flex;
+  height: 104px;
+  gap: 20px;
+}
+.npcard {
+  padding: 14px 34px 14px 18px;
+  width: 250px;
+  display: flex;
+  gap: 22px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 25px 0px rgba(6, 5, 50, 0.05);
+}
+.npimg {
+  width: 76px;
+  height: 76px;
+}
+
+.nptext {
+  display: flex;
+  flex-direction: column;
+}
+.npname {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  max-width: 100px;
+  margin-top: 10px;
+}
+.npprice {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 64px;
+}
