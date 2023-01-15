@@ -1,4 +1,6 @@
-.pizza__cards {
+.pizza__cards,
+.combo__cards,
+.snack__cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -6,7 +8,9 @@
 .pizza__card {
   width: 250px;
   height: 370px;
+  margin: 25px 0 35px;
 }
+
 .card__img {
   height: 220px;
   width: 220px;
@@ -16,7 +20,7 @@
 .card__text {
   font-size: 14px;
   line-height: 19px;
-  width: 186px;
+  width: 224px;
   max-height: 57px;
   color: rgba(115, 121, 140, 1);
 }
