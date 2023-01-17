@@ -1,6 +1,8 @@
 .pizza__cards,
 .combo__cards,
-.snack__cards {
+.snack__cards,
+.desert__cards,
+.drink__cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;

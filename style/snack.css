@@ -1,5 +1,20 @@
 .snack__card {
   width: 250px;
-  height: 425px;
+  max-height: 430px;
   margin: 25px 0 35px;
+}
+
+.snack__title {
+  height: 54px;
+  width: 201px;
+}
+
+.card__textsn {
+  font-size: 14px;
+  line-height: 19px;
+  width: 224px;
+  max-height: 57px;
+  color: rgba(115, 121, 140, 1);
+  max-height: 95px;
+  width: 235px;
 }

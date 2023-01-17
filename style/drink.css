@@ -1,0 +1,28 @@
+.drink__card {
+  height: 387px;
+  width: 250px;
+  margin: 25px 0 35px;
+}
+.fbut__drink {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 12px 12px 12px;
+  background-color: rgba(243, 243, 247, 1);
+  color: rgba(115, 121, 140, 1);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.sign {
+  height: 8px;
+  width: 8px;
+}
+.num {
+  height: 22px;
+  width: 10px;
+}
