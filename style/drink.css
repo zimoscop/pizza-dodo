@@ -2,6 +2,9 @@
   height: 387px;
   width: 250px;
   margin: 25px 0 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .fbut__drink {
   height: 40px;

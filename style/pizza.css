@@ -32,7 +32,7 @@
 .card__footer {
   display: flex;
   gap: 46px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .ftext {

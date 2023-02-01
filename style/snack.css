@@ -1,7 +1,10 @@
 .snack__card {
   width: 250px;
-  max-height: 430px;
+  height: 425px;
   margin: 25px 0 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .snack__title {
