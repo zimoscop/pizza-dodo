@@ -1,0 +1,58 @@
+.fooret__lists {
+  max-height: 180px;
+  display: flex;
+  gap: 20px;
+}
+
+.fooret__mixbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__title,
+.info__title {
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+}
+
+.list__text {
+  width: 134px;
+  list-style-type: none;
+}
+
+.footer__contacts {
+  width: 275px;
+}
+
+.contscts__app {
+  height: 40px;
+  margin-bottom: 39px;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.info__contacts {
+  border-top: 1px solid rgb(202, 198, 198);
+  padding-top: 46px;
+  display: flex;
+  height: 32px;
+}
+
+.footer__infobox {
+  display: flex;
+  gap: 156px;
+  margin: 93px 0 40px;
+}
+
+.info__revenue {
+  width: 299px;
+}
+
+.info__world {
+  width: 241px;
+}
+
+.info__icons {
+  width: 184px;
+}

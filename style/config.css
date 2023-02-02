@@ -24,6 +24,12 @@ section {
   padding: 35px 0 35px;
 }
 
+footer {
+  padding: 50px 0 40px;
+  background-color: rgba(70, 76, 85, 1);
+  color: rgb(153, 150, 150);
+}
+
 .container {
   max-width: 1060px;
   margin: 0 auto;
@@ -48,7 +54,6 @@ h2 {
 h3 {
   font-weight: 600;
   font-size: 20px;
-  line-height: 27px;
   margin-bottom: 10px;
 }
 
