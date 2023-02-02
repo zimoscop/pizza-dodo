@@ -15,6 +15,11 @@
   margin-bottom: 10px;
 }
 
+.info__title {
+  font-weight: 600;
+  font-size: 26px;
+}
+
 .list__text {
   width: 134px;
   list-style-type: none;
@@ -22,6 +27,7 @@
 
 .footer__contacts {
   width: 275px;
+  text-align: right;
 }
 
 .contscts__app {
@@ -33,10 +39,14 @@
 }
 
 .info__contacts {
-  border-top: 1px solid rgb(202, 198, 198);
-  padding-top: 46px;
   display: flex;
   height: 32px;
+  justify-content: space-between;
+}
+
+.line {
+  border-top: 1px solid rgb(144, 142, 142);
+  margin-bottom: 46px;
 }
 
 .footer__infobox {
@@ -55,4 +65,6 @@
 
 .info__icons {
   width: 184px;
+  display: flex;
+  gap: 6px;
 }
